@@ -1,15 +1,14 @@
 # IBM_DS
 This repository is about my progress in the Coursera course IBM Data Science.
 
-# Create a new repository on GitHub
-# Repository name: IBM-Data-Science-Coursera
-# Description: Projects and resources from the IBM Data Science Professional Certificate on Coursera
+### Repository name: IBM-Data-Science-Coursera
+### Description: Projects and resources from the IBM Data Science Professional Certificate on Coursera
 
-# Clone the repository locally
+### Clone the repository locally
 git clone https://github.com/yourusername/IBM-Data-Science-Coursera.git
 cd IBM-Data-Science-Coursera
 
-# Create the basic directory structure
+### Create the basic directory structure
 mkdir -p Course_{1..10}_*
 mkdir -p Course_1_What_is_Data_Science
 mkdir -p Course_2_Tools_for_Data_Science
@@ -23,18 +22,18 @@ mkdir -p Course_9_Machine_Learning_with_Python
 mkdir -p Course_10_Applied_Data_Science_Capstone
 mkdir -p Resources/Cheatsheets Resources/Additional_Materials
 
-# Create README.md file
+### Create README.md file
 cat > README.md << 'EOF'
-# IBM Data Science Professional Certificate
+### IBM Data Science Professional Certificate
 
-## Overview
+### Overview
 
 This repository contains my projects, notes, and resources from the **IBM Data Science Professional Certificate** program on Coursera. This comprehensive program consists of 10 courses that provide the latest job-ready tools and skills in data science, including open source tools and libraries, Python, databases, SQL, data visualization, data analysis, and machine learning.
 
 #### Course Provider
 **IBM** in partnership with **Coursera**
 
-## Course Content
+### Course Content
 
 The professional certificate includes the following courses:
 
@@ -49,7 +48,7 @@ The professional certificate includes the following courses:
 9. **Machine Learning with Python** - Develop skills in machine learning algorithms using Python
 10. **Applied Data Science Capstone** - Apply all learned skills in a real-world data science project
 
-## Skills Acquired
+### Skills Acquired
 
 * Data Science Tools & Methodologies
 * Python Programming
@@ -62,18 +61,18 @@ The professional certificate includes the following courses:
 * Storytelling with Data
 * Real-world Problem Solving
 
-## Repository Structure
+### Repository Structure
 
 
 
-## Prerequisites
+### Prerequisites
 
 * Basic computer literacy
 * Access to Coursera platform
 * IBM Cloud account (free tier sufficient)
 * Willingness to learn and apply new concepts
 
-## How to Use This Repository
+### How to Use This Repository
 
 1. Clone this repository to your local machine
 
@@ -81,25 +80,25 @@ The professional certificate includes the following courses:
 3. Follow along with the course on Coursera while referencing these materials
 4. Contribute improvements or fixes by creating pull requests
 
-## Additional Resources
+### Additional Resources
 
 * [IBM Data Science Community](https://community.ibm.com/community/user/datascience/home)
 * [Coursera IBM Data Science Certificate](https://www.coursera.org/professional-certificates/ibm-data-science)
 * [IBM Developer](https://developer.ibm.com/technologies/data-science/)
 * [IBM Cognitive Class](https://cognitiveclass.ai/)
 
-## Certification
+### Certification
 
 Upon completion of all ten courses, you will earn the IBM Data Science Professional Certificate, which you can add to your resume and LinkedIn profile to demonstrate your proficiency in data science.
 
-## License
+### License
 
 This repository is licensed under the MIT License - see the LICENSE file for details.
 
 **Note**: This repository is not officially affiliated with IBM or Coursera. It is meant for educational purposes and to showcase my learning journey through the IBM Data Science Professional Certificate program.
 EOF
 
-# Create a sample notebook file for one of the courses
+### Create a sample notebook file for one of the courses
 cat > Course_2_Tools_for_Data_Science/Jupyter_Notebook_Introduction.ipynb << 'EOF'
 {
 "cells": [
@@ -189,38 +188,38 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 EOF
 
-# Create .gitignore file
+### Create .gitignore file
 cat > .gitignore << 'EOF'
-# Byte-compiled / optimized / DLL files
+### Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter Notebook checkpoints
+### Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# Distribution / packaging
+### Distribution / packaging
 dist/
 build/
 *.egg-info/
 
-# Virtual environments
+### Virtual environments
 venv/
 env/
 ENV/
 
-# OS specific files
+### OS specific files
 .DS_Store
 Thumbs.db
 
-# IDE specific files
+### IDE specific files
 .idea/
 .vscode/
 *.swp
 *.swo
 EOF
 
-# Add, commit, and push the files
+### Add, commit, and push the files
 git add .
 git commit -m "Initial repository setup for IBM Data Science Professional Certificate coursework"
 git push origin main
