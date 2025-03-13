@@ -96,12 +96,6 @@ Upon completion of all ten courses, you will earn the IBM Data Science Professio
 
 This repository is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
-
-For any questions or suggestions regarding this repository, please open an issue or contact me directly.
-
----
-
 **Note**: This repository is not officially affiliated with IBM or Coursera. It is meant for educational purposes and to showcase my learning journey through the IBM Data Science Professional Certificate program.
 EOF
 
@@ -170,11 +164,11 @@ cat > Course_2_Tools_for_Data_Science/Jupyter_Notebook_Introduction.ipynb << 'EO
 }
 EOF
 
-# Create a license file
+# license file
 cat > LICENSE << 'EOF'
 MIT License
 
-Copyright (c) 2025 Your Name
+Copyright (c) 2025 Paul Petersohn
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
